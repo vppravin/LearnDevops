@@ -3,7 +3,8 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello from Jenkins + Docker and for this i have made a change !\n');
+  res.end('HEYO USERS \n');
+  res.end('Hello from Jenkins + Docker using Poll SCM ! \n');
 });
 
 server.listen(port, () => {
